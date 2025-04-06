@@ -2,3 +2,141 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* ===== GLOBAL STYLES ===== */
+body {
+  background: linear-gradient(to right, #ff9966, #66ccff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #f9f9f9;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  background-color: #f0f0f0;
+  color: #777;
+  font-size: 0.85em;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://source.unsplash.com/1600x400/?supercar');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  background-color: #fdfdfd;
+  padding: 30px;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1 {
+  color: red;
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: darkblue;
+}
+
+p {
+  margin: 32px;
+  line-height: 1.6;
+}
+
+em {
+  color: teal;
+}
+
+strong {
+  color: maroon;
+}
+
+/* ===== PARAGRAPH STYLING ===== */
+.paragraph-1 {
+  background-color: pink;
+  margin: 40px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ===== TABLE STYLES ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #888;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+td {
+  color: #444;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ===== BUTTON STYLING ===== */
+button {
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ===== LIST STYLES ===== */
+ul, ol {
+  color: darkgreen;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  list-style-type: square;
+}
+
+li {
+  padding: 8px;
+  font-weight: bold;
+  color: #444;
+}

@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Learning CSS</title>
-    <style>
+    <!-- <style>
       h1 {
         color: red;
       }
@@ -76,11 +76,13 @@
       }
     
       header {
-        color: #222;
-        background-color: #ffe4e1; /* light pink */
-        padding: 20px;
-        text-align: center;
-        border-bottom: 2px solid #ccc;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://source.unsplash.com/1600x400/?supercar');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
       }
     
       main {
@@ -99,16 +101,28 @@
     
       .paragraph-1 {
         background-color: pink;
+        margin: 40px;
+        padding: 20px;
       }
-    </style>
+
+      body {
+  background: linear-gradient(to right, #ff9966, #66ccff);
+}
+
+    </style> -->
     
     
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <a href="index.html">HOME</a> |
+      <a href="about.html">ABOUT</a> |
+      <a href="gallery.html">GALLERY</a>
+    </nav>
     <header>
       <h1 style="text-decoration: underline; font-family: Arial, sans-serif">
-        I like cats!
+        Welcome to the Super Car Showcase
       </h1>
     </header>
     <main>
@@ -194,18 +208,18 @@
           list-style-type: square;
         "
       >
-        <li style="padding: 8px; font-weight: bold; color: #444">Cats</li>
-        <li style="padding: 8px; font-weight: bold; color: #444">Dogs</li>
-        <li style="padding: 8px; font-weight: bold; color: #444">Lions</li>
-        <li style="padding: 8px; font-weight: bold; color: #444">Elephants</li>
+        <li style="padding: 8px; font-weight: bold; color: #444">Ferrari</li>
+        <li style="padding: 8px; font-weight: bold; color: #444">Lamborghini</li>
+        <li style="padding: 8px; font-weight: bold; color: #444">Bugatti</li>
+        <li style="padding: 8px; font-weight: bold; color: #444">McLaren</li>
       </ul>
     </main>
 
-    <nav>
+    <!-- <nav>
       <a style="color: blue; text-decoration: none"> HOME </a> |
       <a style="color: blue; text-decoration: none"> ABOUT </a> |
       <a style="color: blue; text-decoration: none"> GALLERY </a>
-    </nav>
+    </nav> -->
 
     <footer
       style="
@@ -215,7 +229,7 @@
         text-align: center;
       "
     >
-      &copy; 2025 My Cat Website
+      &copy; 2025 My Car Website
     </footer>
 
     <script src="./script.js"></script>
